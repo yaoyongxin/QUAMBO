@@ -1,0 +1,9 @@
+171,173d170
+< ! YYX begin
+<       USE QO_MODULE
+< ! YYX end
+2054,2057d2050
+< ! YYX begin
+<       CALL QO_READER(IO%IU5,IO%IU0)
+<       CALL INI_QO(T_INFO,P)
+< ! YYX end

@@ -1,0 +1,24 @@
+65,67d64
+< ! YYX begin
+<       USE QO_MODULE
+< ! YYX end
+291,293c288
+< ! YYX begin
+<       IF(QO%LSKIPDAV)GOTO 100
+< ! YYX end
+---
+> 
+424,426c419
+< ! YYX begin
+< 100   CONTINUE ! QO%LSKIPDAV
+< ! YYX end
+---
+> 
+617,621c610
+< ! YYX begin
+<       IF (INFO%LABORT) THEN
+<         CALL PW2QO(GRID,P,T_INFO,SYMM,INFO,LATT_CUR,NONL_S,NONLR_S,W,WDES,LMDIM,CDIJ,CQIJ,SV,EFERMI)
+<       ENDIF
+< ! YYX end
+---
+> 

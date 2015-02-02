@@ -1,0 +1,31 @@
+65,67d64
+< ! YYX begin
+<       USE QO_MODULE
+< ! YYX end
+277,280d273
+< ! YYX begin
+<       IF(QO%LSKIPDAV)GOTO 100
+< ! YYX end
+< 
+282d274
+< 
+407,410d398
+< ! YYX begin
+< 100   CONTINUE ! QO%LSKIPDAV
+< ! YYX end
+< 
+528,536d515
+< ! ======================================================================
+< ! If the end of the electronic loop is reached
+< ! calculate QUAMBOs if required. YYX
+< ! ======================================================================
+< ! YYX begin
+<       IF (INFO%LABORT) THEN
+<         CALL PW2QO(GRID,P,T_INFO,SYMM,INFO,LATT_CUR,NONL_S,W,WDES,LMDIM,CDIJ,CQIJ,SV,EFERMI)
+<       ENDIF
+< ! YYX end
+845c824,825
+<      &             (REAL(CDIJ(L,LP,1,I),q),L=1,MIN(16,P(1)%LMMAX))
+---
+>      &             (CDIJ(L,LP,1,I),L=1,MIN(8,P(1)%LMMAX))
+> !     &             (REAL(CDIJ(L,LP,1,I),q),L=1,MIN(16,P(1)%LMMAX))

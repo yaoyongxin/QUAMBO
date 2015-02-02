@@ -1,0 +1,8 @@
+127,129d126
+< ! YYX begin
+<       USE QO_MODULE
+< ! YYX end
+407,409d403
+< ! YYX begin
+<                QO%WS%NGRID(1)=NKPX; QO%WS%NGRID(2)=NKPY; QO%WS%NGRID(3)=NKPZ
+< ! YYX end
